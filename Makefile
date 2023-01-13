@@ -7,5 +7,5 @@ install:
 	install -m0644 hocari{.gpg,-trusted,-revoked} $(DESTDIR)$(PREFIX)/share/pacman/keyrings/
 
 uninstall:
-	rm -f $(DESTDIR)$(PREFIX)/share/pacman/keyrings/rebornos{.gpg,-trusted,-revoked}
+	rm -f $(DESTDIR)$(PREFIX)/share/pacman/keyrings/hocari{.gpg,-trusted,-revoked}
 	rmdir -p --ignore-fail-on-non-empty $(DESTDIR)$(PREFIX)/share/pacman/keyrings/
